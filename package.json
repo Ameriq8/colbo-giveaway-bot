@@ -1,0 +1,27 @@
+{
+    "name": "giveaways-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./src/index.js",
+        "dev": "nodemon ./src/index.js",
+        "lint:fix": "eslint src --fix",
+        "prettier": "prettier --write src/**/*"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^13.3.1",
+        "dotenv": "^10.0.0",
+        "mongoose": "^6.0.12",
+        "ms": "^2.1.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.3.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "prettier": "^2.5.0"
+    }
+}

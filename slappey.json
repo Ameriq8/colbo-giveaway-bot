@@ -1,0 +1,7 @@
+{
+    "name": "giveaways-bot",
+    "language": "javascript",
+    "manager": "npm",
+    "mongodb_uri": "mongodb+srv://TheLeader:SaeedCraft1$@spacevoid.2a6tk.mongodb.net/Tapaculo",
+    "prefix": "??"
+}
